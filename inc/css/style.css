@@ -1,0 +1,315 @@
+body,*,html {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+p,ul li,a,span {
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+}
+span {
+	 color: #32c69a;
+}
+p {
+	margin-bottom: 0.5rem;
+}
+a{
+	text-decoration: none!important;
+}
+a:hover {
+	/*font-weight: bold!important;*/
+}
+.shade {
+            box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 1);
+}
+.fa-2x {
+
+    color: #adb5bd;
+}
+.fa-2x:hover {
+	color: #45505a;
+}
+.dropdown-menu {
+	background: #32c69a;
+}
+.pd {
+	margin-bottom: 40px;
+}
+.btn-success {
+	background: #32c69a;
+	border: none;
+	/*box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 1);*/
+}
+.btn{
+	box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 1);	
+}
+.logo a {
+	line-height: 0.75;
+    color: #404040;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.top p {
+	font-size: 11px;
+	font-weight: bold;
+}
+.bg-dark {
+	background: #32c69a!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+     color: White;
+     font-size: 17px;
+}
+/*Start of carousel*/
+.tab-carousel .carousel {
+	/*margin: 30px 0;*/
+    background: #ccc;
+}
+.tab-carousel .carousel .item {
+    text-align: center;
+	overflow: hidden;
+    /*height: 475px;*/
+}
+.tab-carousel .carousel .item img {
+	max-width: 100%;
+    margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+}
+.tab-carousel .carousel .carousel-control {
+	width: 50px;
+    height: 50px;
+    background: #000;
+    margin: auto 0;
+	opacity: 0.8;
+}
+.tab-carousel .carousel .carousel-control:hover {
+	opacity: 0.9;
+}
+.tab-carousel .carousel .carousel-control i {
+    font-size: 41px;
+	margin-top: 3px;
+}
+.tab-carousel .carousel-caption h3, .carousel-caption p {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: none;
+	margin-bottom: 20px;
+}
+.tab-carousel .carousel-caption h3 {
+	background: rgba(0,0,0,0.9);
+	padding: 12px 24px;
+	font-size: 4vw;	
+	text-transform: uppercase;
+}
+.tab-carousel .carousel-caption p {
+	background: #32c69a;
+	padding: 10px 20px;
+	font-size: 3vw;
+	font-weight: 300;
+}
+.tab-carousel .carousel-indicators li, .carousel-indicators li.active {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.tab-carousel .carousel-indicators li.active {
+	background: #20b0b9;
+	border-color: #20b0b9;
+}
+.tab-carousel .carousel .nav {	
+	background: #eee;
+}
+.tab-carousel .carousel .nav a {
+	color: #333;
+	border-radius: 0;
+	font-size: 85%;
+	padding: 10px 16px;
+	background: transparent;
+}
+.tab-carousel .carousel .nav .nav-item.active a {
+	color: #fff;
+	background: #32c69a;
+}
+.tab-carousel .carousel .nav strong {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 110%;
+	text-transform: uppercase;
+}
+/*End of carousel*/
+.card {
+    border-bottom: 5px solid #32c69a;
+}
+.back1 {
+	background-image: url(../../images/back1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	color: white;
+	background-attachment: fixed;
+}
+.back1 p:nth-child(1) {
+	font-size: 25px;
+	font-weight: bold;
+}
+.services {
+    width: 100%;
+    background: #f4f8fb;
+    padding-top: 99px;
+    padding-bottom: 102px;
+}
+/*.services .card {
+	border: none;
+}*/
+.form-section {
+    background: #eae4e4;
+	padding-top: 60px;
+    padding-bottom: 50px;	
+}
+.form-section p:nth-child(1) {
+	font-size: 18px
+}
+.form-section p:nth-child(2) {
+	font-size: 30px;
+} 
+.form-section .border-color {
+	border:  4px solid #32c69a;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+}
+.form-section .circle-part {
+	background: #add8e6;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 50%;
+	text-align: center;	
+}
+.form-section .circle-part p:nth-child(1) {
+	font-size: 38px;
+	font-weight: bold;
+}
+.form-section .form-control {
+	background: #f1f0f0;
+	border: none;
+}
+.form-control {
+    
+}
+/*footer css*/
+.footer_content { 
+	background: linear-gradient(to top left,#32c69a,#b8bdc3);
+}
+.footer_content h5 {
+	padding-top: 30px;
+}
+.footer_content p,.footer_content ul li {
+	font-size: 13px;
+	text-align: left;
+
+}
+.footer_content .col-md-4 , .footer_content .col-md-2 {
+	padding-left: 35px;
+}
+.footer_content ul,.mission ul, .features ul ,.mobtop2 ul, .main ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+.footer_content li:before, .mission li:before, .features li:before, .main li:before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 17px;
+    position: relative;
+}
+.footer_content a{
+	color: black;
+}
+.footer_content a:hover {
+	/*color: #fd4052;*/
+	color: #352929;
+	font-weight: bold;
+	text-decoration: none;
+}
+.footer_end {
+	background: linear-gradient(to top left,#6b7e90,#060708);
+	color: white;
+}
+.footer-end {
+	background: #138462;
+}
+.footer-end p {
+	margin-bottom: 0px;
+	padding: 10px;
+}
+.technology{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.para{
+	margin-top: -15px;
+}
+.blurphoto {
+	/*min-height: 450px;*/
+	background: linear-gradient( #387157 7px, #32c69a 100%);
+	/*background-image: linear-gradient(#253133, #5fb59b);*/
+	padding: 80px 0px;
+}
+.blurphoto p{
+	font-size: 20px;
+	line-height: 0.8;
+}
+.blurphoto p:nth-child(1) {
+	font-size: 30px;
+	font-weight: bold;
+}
+.blurphoto h1 {
+	font-size: 44px;
+	font-weight: bold;
+	padding: 15px 0px;
+}
+.card-header {
+	background: #32c69a!important;
+}
+.card-header .btn-link {
+	color: white;
+}
+.card-header .btn-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.mapanddetail .bg-white{
+	background: #32c69a!important;
+}
+.gallery .img-thumbnail{
+	background-color: #32c69a;
+    border: 1px solid #8b9daf;
+}
+
+
+/*faltu*/
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.abc ul li{
+	list-style: none;
+}
